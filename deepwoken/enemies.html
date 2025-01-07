@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enemies - Deepwoken Index</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #123524;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+        padding: 10px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+        padding: 5px 10px;
+      }
+
+      nav a:hover {
+        background-color: #555;
+        border-radius: 5px;
+      }
+
+      .container {
+        padding: 20px;
+        max-width: 900px;
+        margin: auto;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .enemy-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+      }
+
+      .enemy-item {
+        text-align: center;
+        background-color: #ddd;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .enemy-item img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Deepwoken Index</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="enemies.html">Enemies</a>
+      <a href="bosses.html">Bosses</a>
+    </nav>
+
+    <div class="container">
+      <!-- Enemies Page -->
+      <h2>Enemies</h2>
+      <p>Below is a list of enemies you may encounter in Deepwoken:</p>
+
+      <div class="enemy-list">
+        <div class="enemy-item">
+          <img src="./images/sharko.png" alt="Enemy 1" />
+          <p>
+            Sharko: The sharko is the land shark, with legs and big claws that
+            can kick you very far away.
+          </p>
+        </div>
+        <div class="enemy-item">
+          <img src="./images/mudskipper.png" alt="Enemy 2" />
+          <p>
+            Mudskipper: Mindless walking corpses consumed by a fungus, seeking
+            to turn you into one too.
+          </p>
+        </div>
+        <div class="enemy-item">
+          <img src="./images/bandit.png" alt="Enemy 3" />
+          <p>Bandits: Lawless people who steal and kill.</p>
+        </div>
+        <div class="enemy-item">
+          <img src="./images/golem.png" alt="Enemy 4" />
+          <p>Stone Golem: A sophisticated creation that is hostile.</p>
+        </div>
+        <div class="enemy-item">
+          <img src="./images/knife.png" alt="Enemy 5" />
+          <p>Knives of Elfis: Mercenaries paid to kill you.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; Daniel Gliddon</p>
+    </footer>
+  </body>
+</html>
